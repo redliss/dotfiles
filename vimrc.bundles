@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 
 " Define bundles via Github repos
 Bundle 'croaky/vim-colors-github'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tomasr/molokai'
 Bundle 'danro/rename.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
@@ -25,6 +27,8 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/matchit.zip'
 Bundle 'vim-scripts/ctags.vim'
 Bundle 'vim-scripts/tComment'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'stephenmckinney/vim-solarized-powerline'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
